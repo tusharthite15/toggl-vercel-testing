@@ -1,15 +1,9 @@
+
 {
-    "builds": [
-      {
-        "src": "testing/package.json",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/testing/$1"
-      }
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api"
+        }
     ]
-  }
-  
+}
