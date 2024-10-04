@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusharthite15/toggl-vercel-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusharthite15/toggl-vercel-testing/issues"
+  },
+  "homepage": "https://github.com/tusharthite15/toggl-vercel-testing#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
